@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* 
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+-->
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="@dimen/key_height"
+    >
+
+    <Row>
+        <Key android:codes="6201" android:keyLabel="ᠹ" android:keyEdgeFlags="left" /> <!--fa-->
+        <Key android:codes="6196" android:keyLabel="ᠴ"/> <!--ch-->
+        <Key android:codes="6180" android:keyLabel="ᠤ"/> <!--o-->
+        <Key android:codes="6197" android:keyLabel="ᠵ"/> <!--z-->
+        <Key android:codes="6177" android:keyLabel="ᠡ"/> <!--e-->
+        <Key android:codes="6184" android:keyLabel="ᠨ"/> <!--n-->
+        <Key android:codes="6189" android:keyLabel="ᠭ"/> <!--g-->
+        <Key android:codes="6193" android:keyLabel="ᠱ"/> <!--sh-->
+        <Key android:codes="6182" android:keyLabel="ᠦ"/> <!--ue-->
+        <Key android:codes="6205" android:keyLabel="ᠽ"/> <!--za-->
+        <Key android:codes="6203" android:keyLabel="ᠻ" android:keyEdgeFlags="right"/> <!--ka-->
+    </Row>
+
+    <Row>
+        <Key android:codes="6198" android:keyLabel="ᠩ" android:keyEdgeFlags="left"/> <!--ya-->
+        <Key android:codes="6186" android:keyLabel="ᠪ"/> <!--b-->
+        <Key android:codes="6181" android:keyLabel="ᠥ"/> <!--oe-->
+        <Key android:codes="6158" android:keyLabel="MVS"/>
+        <Key android:codes="6176" android:keyLabel="ᠠ"/> <!--a-->
+        <Key android:codes="6188" android:keyLabel="ᠬ"/> <!--h-->
+        <Key android:codes="6199" android:keyLabel="ᠷ"/> <!--r-->
+        <Key android:codes="6179" android:keyLabel="ᠣ"/> <!--u-->
+        <Key android:codes="6195" android:keyLabel="ᠳ"/> <!--d-->
+        <Key android:codes="6191" android:keyLabel="ᠯ"/> <!--l-->
+        <Key android:codes="6187" android:keyLabel="ᠫ" android:keyEdgeFlags="right"/> <!--pa-->
+    </Row>
+
+    <Row>
+        <!--<Key android:codes="-1" android:keyIcon="@drawable/sym_keyboard_shift"
+                android:keyWidth="15%p" android:isModifier="true"
+                android:isSticky="true" android:keyEdgeFlags="left"/>-->
+        <Key android:codes="6204,6210" android:keyLabel="ᠼ" android:keyEdgeFlags="right" android:popupKeyboard="@xml/kbd_popup_template" android:popupCharacters="ᡂ"/>
+        <Key android:codes="6204" android:keyLabel="ᠼ"/> <!--tsa-->
+        <Key android:codes="6192" android:keyLabel="ᠰ"/> <!--s-->
+        <Key android:codes="6190" android:keyLabel="ᠮ"/> <!--m-->
+        <Key android:codes="6178" android:keyLabel="ᠢ"/> <!--i-->
+        <Key android:codes="6194" android:keyLabel="ᠲ"/> <!--t-->
+        <Key android:codes="6200" android:keyLabel="ᠸ"/> <!--wa-->
+        <Key android:codes="6152" android:keyLabel="᠈"/> <!--taslal-->
+        <Key android:codes="6153" android:keyLabel="᠉"/> <!--tseg-->
+        <Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete"
+            android:keyWidth="15%p" android:keyEdgeFlags="right"
+            android:isRepeatable="true"/>
+    </Row>
+
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="8239" android:keyLabel="NNBSP" android:keyWidth="15%p"/>
+        <Key android:codes="-2" android:keyLabel="123" android:keyWidth="10%p"/>
+        <Key android:codes="-101" android:keyIcon="@drawable/sym_keyboard_language_switch" android:keyWidth="10%p"/>
+        <Key android:codes="32" android:keyIcon="@drawable/sym_keyboard_space" android:keyWidth="30%p" android:isRepeatable="true"/>
+        <Key android:codes="6155,6156,6157" android:keyLabel="FVS1" android:keyWidth="15%p" android:popupCharacters="᠌ ᠍"  android:popupKeyboard="@xml/kbd_popup_template"/>
+        <Key android:codes="10" android:keyIcon="@drawable/sym_keyboard_return" android:keyWidth="20%p" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>
+    

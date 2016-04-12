@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<input-method xmlns:android="http://schemas.android.com/apk/res/android"
+    android:settingsActivity="org.hurelhuyag.mongolscriptkeyboard.MongolKeyboardOptionsActivity"
+    android:supportsSwitchingToNextInputMethod="true"
+    >
+    <subtype
+        android:label="@string/label_subtype_generic"
+        android:icon="@drawable/sym_keyboard_language_switch"
+        android:imeSubtypeLocale="mn_MS"
+        android:imeSubtypeMode="keyboard" />
+</input-method>
